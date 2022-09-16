@@ -18,16 +18,17 @@ function Home() {
 
 
 
-        {/* <iframe src="https://tutorah.tv" title="gsoeogle" id='iframe_id' className='frame'></iframe>
 
         <div className='nav'>
           <IonButton>back</IonButton>
           <IonButton>forward</IonButton>
-        </div> */}
+          <IonButton>reload</IonButton>
+        </div>
+
+        {/* <iframe src="https://tutorah.tv" title="gsoeogle" id='iframe_id' className='frame'></iframe> */}
 
 
-
-        <Iframe url="http://www.nintendo.com"
+        <Iframe url="http://tutorah.tv"
           width="450px"
           height="450px"
           id="myId"
